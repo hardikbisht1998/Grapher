@@ -22,6 +22,15 @@ public class GraphImplAdjacencyList {
         }
     }
 
+    public void singleAddEdge(int a,int b){
+        if(!graph.get(a).contains(b)){
+            graph.get(a).add(b);
+
+        }
+    }
+
+
+
 
 
 }
